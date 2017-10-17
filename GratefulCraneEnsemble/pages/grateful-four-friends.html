@@ -1,0 +1,641 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <title>Timer Agency Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template CSS Files
+    ================================================== -->
+    <!-- Twitter Bootstrs CSS -->
+    <!--<link rel="stylesheet" href="../css/bootstrap.min.css">-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Ionicons Fonts Css -->
+    <link rel="stylesheet" href="../css/ionicons.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Hero area slider css-->
+    <link rel="stylesheet" href="../css/slider.css">
+    <!-- owl craousel css -->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.css">
+    <link rel="stylesheet" href="../css/jquery.fancybox.css">
+    <!-- template main css file -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- Template Javascript Files
+    ================================================== -->
+    <!-- modernizr js -->
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- jquery -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- owl carouserl js -->
+    <script src="../js/owl.carousel.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- wow js -->
+    <script src="../js/wow.min.js"></script>
+    <!-- slider js -->
+    <script src="../js/slider.js"></script>
+    <script src="../js/jquery.fancybox.js"></script>
+    <!-- template main js -->
+    <script src="../js/main.js"></script>
+    <script>
+            function toggleIcon(e) {
+                $(e.target)
+                    .prev('.panel-heading')
+                    .find(".more-less")
+                    .toggleClass('glyphicon-plus glyphicon-minus');
+            }
+            $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+            $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
+    <style>
+        .btn-primary-c {
+            border-color: #2e6da4;
+            color: #2e6da4;
+        }
+
+        .icon-lg {
+            font-size: 17px;
+            color: #fff;
+        }
+
+        .icon-md {
+            font-size: 16px;
+            color: #fff;
+        }
+
+
+        /*Nav*/
+        .navbar-brand {
+            padding: 0px;
+            height: 10px;
+        }
+
+            .navbar-brand > img {
+                height: 100%;
+                padding: 15px;
+                width: auto;
+            }
+
+        .navbar-header .navbar-brand a {
+            height: auto;
+            display: inline-block;
+            margin-top: -5px;
+        }
+        .carousel-inner > .item {
+            height: 60vh;
+        }
+
+            .carousel-inner > .item > img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                max-height: 800px;
+                width: auto;
+            }
+
+        .carousel-control.left,
+        .carousel-control.right {
+            background-image: none;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    ==================================================
+    Header Section Start
+    ================================================== -->
+    <header id="top-bar" class="navbar-fixed-top animated-header">
+        <div class="container">
+
+            <div class="navbar-header">
+                <!-- logo -->
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <img src="../images/GCELogo_C.png" class="img-responsive" style="max-width: 70%;" />
+                    </a>
+                </div>
+                <!-- /logo -->
+                <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- /responsive nav button -->
+
+            </div>
+            <!-- main menu -->
+            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <div class="main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="upcomingshows.html">Upcoming Shows</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="aboutus.html#Mission" data-section="#Mission">Mission</a></li>
+                                    <li><a href="aboutus.html#History" data-section="#History">History</a></li>
+                                    <li><a href="aboutus.html#feature" data-section="#feature">Cast & Crew</a></li>
+                                    <li><a href="aboutus.html#Board" data-section="#Board">Board of Directors</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Connect<span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="contactus.html#clients" data-section="#clients">Social Media</a></li>
+                                    <li><a href="contactus.html#contactus" data-section="#contactus">Contact Us</a></li>
+                                    <li><a href="contactus.html#call-to-action" data-section="#call-to-action">History</a></li>
+                                    <li><a href="contactus.html#volunteer" data-section="#volunteer">Volunteer</a></li>
+                                    <li><a href="contactus.html#bookevent" data-section="#bookevent">Book an Event</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-danger" style="margin:7px;">
+                                <a href="donate.html" style="color:white;">DONATE</a>
+                            </button>
+                            <!--<a href="index.html">Donate</a>-->
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- /main nav -->
+        </div>
+    </header>
+    <!--
+    ==================================================
+    Global Page Section Start
+    ================================================== -->
+    <!--/#Page header-->
+    <section class="global-page-header-slider">
+        <!-- Carousel -->
+        <div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="3000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <!--<img src="../images/portfolio/Panel 1 GUS Bay Area events.png" class="img-responsive" />-->
+                    <img src="../images/events/Grateful Four and Miko at wedding.jpg" class="img-responsive" />
+                    <div class="container">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/events/Grateful Four at Sakura Gardens.jpg" class="img-responsive" />
+                    <div class="container">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../images/events/Grateful Four with Soji and Keiko.jpg" class="img-responsive" />
+                    <div class="container">
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+        </div>
+        <!-- /.carousel -->
+        <div class="global-page-header">
+            <div class="block">
+                <h2>Grateful Four and Friends Variety Show</h2>
+                <figcaption>
+                    <p>
+                        <!--<span class="event-bannertext-color">THE PLACE TO BE A MUSICAL JOURNEY</span>-->
+                    </p>
+                    <p>
+                        Sunday, November 19, <span class="event-bannerdate-color">2017</span>
+                    </p>
+
+                </figcaption>
+                <!--<ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">
+                            <i class="ion-ios-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="active">Blog</li>
+                </ol>-->
+            </div>
+        </div>
+
+    </section>
+
+    <section id="blog-full-width">
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-md-8">
+
+                    <article class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
+                        <div class="blog-post-image">
+                            <a href="post-fullwidth.html"><img class="img-responsive" src="../images/blog/post-2.jpg" alt="" /></a>
+                        </div>
+                        <div class="blog-content">
+                            <h2 class="blogpost-title">
+                                <a href="post-fullwidth.html">Space shouldn’t be the final frontier</a>
+                            </h2>
+                            <div class="blog-meta">
+                                <span>Dec 11, 2020</span>
+                                <span>by <a href="">Admin</a></span>
+                                <span><a href="">business</a>,<a href="">people</a></span>
+                            </div>
+                            <p>
+                                Ultrices posuere cubilia curae curabitur sit amet tortor ut massa commodo. Vestibulum consectetur euismod malesuada tincidunt cum. Sed ullamcorper dignissim consectetur ut tincidunt eros sed sapien consectetur dictum. Pellentesques sed volutpat ante, cursus port. Praesent mi magna, penatibus et magniseget dis parturient montes sed quia consequuntur magni dolores eos qui ratione.
+                            </p>
+                            <a href="single-post.html" class="btn btn-dafault btn-details">Continue Reading</a>
+                        </div>
+
+                    </article>
+                    <article class="wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">
+                        <div class="blog-post-image">
+                            <a href="post-fullwidth.html"><img class="img-responsive" src="../images/blog/post-3.jpg" alt="" /></a>
+                        </div>
+                        <div class="blog-content">
+                            <h2 class="blogpost-title">
+                                <a href="post-fullwidth.html">Space shouldn’t be the final frontier</a>
+                            </h2>
+                            <div class="blog-meta">
+                                <span>Dec 11, 2020</span>
+                                <span>by <a href="">Admin</a></span>
+                                <span><a href="">business</a>,<a href="">people</a></span>
+                            </div>
+                            <p>
+                                Ultrices posuere cubilia curae curabitur sit amet tortor ut massa commodo. Vestibulum consectetur euismod malesuada tincidunt cum. Sed ullamcorper dignissim consectetur ut tincidunt eros sed sapien consectetur dictum. Pellentesques sed volutpat ante, cursus port. Praesent mi magna, penatibus et magniseget dis parturient montes sed quia consequuntur magni dolores eos qui ratione.
+                            </p>
+                            <a href="single-post.html" class="btn btn-dafault btn-details">Continue Reading</a>
+                        </div>
+
+                    </article>
+                </div>-->
+                <div class="col-md-8">
+                    <div class="container">
+                        <h1><span class="individualevent-h1-color">SHOW TIMES</span></h1>
+                        <div class="row">
+                            <div class=" col-md-8 col-xs-12">
+                                <div class="table-responsive">
+                                    <table summary="This table shows how to create responsive tables using Bootstrap's default functionality" class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td><b> Sunday </b> | November 19<sup>th</sup> (Orange County Buddhist Church-MPB) </td>
+                                                <td><span class="pull-right"> 12 PM </span> </td>
+                                                <td><a class="btn btn-large btn-primary-c pull-right" href="#">Buy Tickets</a></td>
+                                            </tr>
+                                            <!--<tr>
+                                                <td><b>Tuesday</b> | October 22<sup>nd</sup></td>
+                                                <td><span class="pull-right"> 3 PM </span> </td>
+                                                <td><a class="btn btn-large btn-primary-c pull-right" href="#">Buy Tickets</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Wednesday</b> | October 23<sup>rd</sup></td>
+                                                <td><span class="pull-right">  3 PM </span> </td>
+                                                <td><a class="btn btn-large btn-primary-c pull-right" href="#">Buy Tickets</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Thursday</b> | October 24<sup>th</sup></td>
+                                                <td><span class="pull-right"> 3 PM </span> </td>
+                                                <td><a class="btn btn-large btn-primary-c pull-right" href="#">Buy Tickets</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Friday</b> | October 25<sup>th</sup></td>
+                                                <td><span class="pull-right"> 3 PM </span> </td>
+                                                <td><a class="btn btn-large btn-primary-c pull-right" href="#">Buy Tickets</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Saturday</b> | October 26<sup>th</sup></td>
+                                                <td><span class="pull-right"> 3 PM </span> </td>
+                                                <td><a class="btn btn-large btn-primary-c pull-right" href="#">Buy Tickets</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Sunday</b> | October 27<sup>th</sup></td>
+                                                <td><span class="pull-right"> 3 PM </span> </td>
+                                                <td><a class="btn btn-large btn-primary-c pull-right" href="#">Buy Tickets</a></td>
+                                            </tr>-->
+                                        </tbody>
+                                    </table>
+                                </div><!--end of .table-responsive-->
+                                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+                                    <!--<div class="blog-post-image">
+                                        <a href="post-fullwidth.html"><img class="img-responsive" src="../images/blog/post-1.jpg" alt="" /></a>
+                                    </div>-->
+                                    <div class="blog-content">
+                                        <h2 class="blogpost-title">
+                                            <a href="post-fullwidth.html">Description</a>
+                                        </h2>
+                                        <p style="text-align: justify;">
+                                            Please join us for an afternoon filled with dynamic acapella singing, songs from the Yonsei, Sansei and Nisei generations, Taiko, Koto and diverse stories of growing up Japanese American from the Yonsei point of view.  The Grateful 4 (Michael Murata, Emily Yoshihara, Lisa Horikawa, Aimee Angeles) is the Grateful Crane Ensemble’s Yonsei Acapella group who have songs to sing, and a wide array of musical talents to share!
+
+                                           <br/> Show proceeds will benefit the Grateful Crane Ensemble and OCBC’s Building Fund.</p>
+                                    </div>
+                                </article>
+                                <div class="wrapper">
+                                    <div class="tab">
+                                        <input id="tab-one" type="checkbox" name="tabs">
+                                        <label for="tab-one"><i class="glyphicon glyphicon-road icon-lg"></i>  Venue Information</label>
+                                        <div class="tab-content">
+                                            <p>
+                                                <b>Orange County Buddhist Church</b> <br />
+                                                <b>Multipurpose Building (MPB)</b><br />
+                                                <b>909 S Dale Ave, Anaheim, CA, 92804</b><br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!--<div class="tab">
+                                        <input id="tab-two" type="checkbox" name="tabs">
+                                        <label for="tab-two">  <i class="glyphicon glyphicon-link icon-lg"></i>  Related Links</label>
+                                        <div class="tab-content">
+                                            <p><a href="http://www.ocbuddhist.org/">http://www.ocbuddhist.org/</a></p>
+                                        </div>
+                                    </div>-->
+                                    <div class="tab">
+                                        <input id="tab-three" type="checkbox" name="tabs">
+                                        <label for="tab-three"> <i class="glyphicon glyphicon-facetime-video icon-lg"></i>  Press / Media Information  </label>
+                                        <div class="tab-content">
+                                            <p> Press / Media Information </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Venue Information
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Related Links
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <i class="more-less glyphicon glyphicon-plus"></i>
+                                        Press/Media Info
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <!--col-md-4 col-sm-4 col-xs-12 text-center close-->
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="panel panel-pricing">
+                                <div class="panel-heading text-center">
+                                    <i class="fa fa-windows"></i>
+                                    <h4>EVENT DETAILS</h4>
+                                </div><!--panel-heading close-->
+                                <div class="panel-body">
+                                    <div class="row">
+
+                                        <div class="col-sm-2 col-xs-2 text-center">
+                                            <i class="	glyphicon glyphicon-calendar icon-md"></i>
+                                        </div>
+                                        <div class="col-sm-10 col-xs-10">
+                                            <p class="p-price">November 19<sup>th</sup></p>
+                                            <p class="p-time"> Orange County Buddhist Church-MPB </p> 
+                                        </div>
+                                    </div>
+
+                                    <!--p-title close-->
+                                </div><!--panel-body text-center close-->
+                                <div class="panel-body">
+                                    <div class="row">
+
+                                        <div class="col-sm-2 col-xs-2 text-center">
+                                            <i class="glyphicon glyphicon-home icon-md"></i>
+                                        </div>
+                                        <div class="col-sm-10 col-xs-10">
+                                            <p class="p-price">Doors Open</p><!--p-title close-->
+                                            <p class="p-time">Lunch at 12:00pm <br /> Event at 1:00pm</p><!--p-time close-->
+                                        </div>
+                                    </div>
+
+                                </div><!--panel-body text-center close-->
+                                <div class="panel-body">
+                                    <div class="row">
+
+                                        <div class="col-sm-2 col-xs-2 text-center">
+                                            <i class="glyphicon glyphicon-usd icon-md"></i>
+                                        </div>
+                                        <div class="col-sm-10 col-xs-10">
+                                            <p class="p-price">Ticket Price</p><!--p-title close-->
+                                            <p class="p-time"> General Admission: $25<br />Admission with Bento Lunch: $35</p><!--p-time close-->
+                                        </div>
+                                    </div>
+
+
+
+                                </div><!--panel-body text-center close-->
+                                <div class="panel-body">
+                                    <div class="row">
+
+                                        <div class="col-sm-2 col-xs-2 text-center">
+                                            <i class="glyphicon glyphicon-earphone icon-md"></i>
+                                        </div>
+                                        <div class="col-sm-10 col-xs-10">
+                                            <p class="p-price">Contact </p><!--p-price close-->
+                                            <p class="p-time">(310) 995-5841</p><!--p-time close-->
+                                        </div>
+                                    </div>
+
+                                </div><!--panel-body text-center close-->
+                            </div><!--panel panel-pricing close-->
+                        </div>
+
+                        <!--<div class="author widget">
+                            <img class="img-responsive" src="../images/author/author-bg.jpg">
+                            <div class="author-body text-center">
+                                <div class="author-img">
+                                    <img src="../images/author/author.jpg">
+                                </div>
+                                <div class="author-bio">
+                                    <h3>Jonathon Andrew</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt magnam asperiores consectetur, corporis ullam impedit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categories widget">
+                            <h3 class="widget-head">Categories</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Audio</a> <span class="badge">1</span>
+                                </li>
+                                <li>
+                                    <a href="">Gallery</a> <span class="badge">2</span>
+                                </li>
+                                <li>
+                                    <a href="">Image</a> <span class="badge">4</span>
+                                </li>
+                                <li>
+                                    <a href="">Standard</a> <span class="badge">2</span>
+                                </li>
+                                <li>
+                                    <a href="">Status</a> <span class="badge">3</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="recent-post widget">
+                            <h3>Recent Posts</h3>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Corporate meeting turns into a photoshooting.</a><br>
+                                    <time>16 May, 2015</time>
+                                </li>
+                                <li>
+                                    <a href="#">Statistics,analysis. The key to succes.</a><br>
+                                    <time>15 May, 2015</time>
+                                </li>
+                                <li>
+                                    <a href="#">Blog post without image, only text.</a><br>
+                                    <time>14 May, 2015</time>
+                                </li>
+                                <li>
+                                    <a href="#">Blog post with audio player. Share your creations.</a><br>
+                                    <time>14 May, 2015</time>
+                                </li>
+                                <li>
+                                    <a href="#">Blog post with classic Youtbube player.</a><br>
+                                    <time>12 May, 2015</time>
+                                </li>
+                            </ul>
+
+                        </div>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================================================
+    Footer Section Start
+    ================================================== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row fcolor" style="padding-bottom:35px">
+            </div>
+            <div class="row fcolor">
+                <div class="col-md-3">
+                    <h3><b><a href="contactus.html" class="fcolor">CONTACT US</a></b></h3>
+                    <p>Grateful Crane Ensemble<br /> P.O. Box 1600<br />Sierra Madre, CA 91025<br />(310) 995-5841</p>
+                </div>
+                <div class="col-md-2">
+                    <h3><b>SITE MAP</b></h3>
+                    <p><b>Main Site</b>  <i class="glyphicon glyphicon-arrow-right icon-md"></i></p>
+                    <p><a href="index1.html" class="fcolor">Home</a></p>
+                    <p><a href="upcomingshows.html" class="fcolor">Upcomming Shows</a></p>
+                    <p><a href="contactus.html" class="fcolor">Connect</a></p>
+                    <p><a href="aboutus.html" class="fcolor">About Us</a></p>
+                </div>
+                <!--<div class="col-md-3">
+                    <h3  style="visibility:hidden"><b>SITE MAP</b></h3>
+                    <p><b><a href="upcomingshows.html" class="fcolor">Upcomming Shows</a> <i class="glyphicon glyphicon-arrow-right icon-md"></i></b> </p>
+                </div>-->
+                <div class="col-md-2">
+                    <h3 style="visibility:hidden"><b>SITE MAP</b></h3>
+                    <p><b><a href="contactus.html" class="fcolor">Connect</a>  <i class="glyphicon glyphicon-arrow-right icon-md"></i></b></p>
+                    <p><a href="contactus.html#clients" class="fcolor">Social Media</a></p>
+                    <p><a href="contactus.html#clients1" class="fcolor">Contact Us</a></p>
+                    <p><a href="contactus.html#call-to-action" class="fcolor">E-NewsLetter </a></p>
+                    <p><a href="contactus.html#volunteer" class="fcolor">Volunteer</a></p>
+                    <p><a href="contactus.html#bookevent" class="fcolor">Book an Event</a></p>
+                </div>
+                <div class="col-md-2">
+                    <h3 style="visibility:hidden"><b>SITE MAP</b></h3>
+                    <p><b><a href="aboutus.html" class="fcolor">About Us</a>  <i class="glyphicon glyphicon-arrow-right icon-md"></i></b></p>
+                    <p><a href="aboutus.html#Mission" class="fcolor">Mission</a></p>
+                    <p><a href="aboutus.html#History" class="fcolor">History</a></p>
+                    <p><a href="aboutus.html#feature" class="fcolor">Cast & Crew</a></p>
+                    <p><a href="aboutus.html#Board" class="fcolor">Board of Directors</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="copyright"> &#169; <span>2017</span> GRATEFUL CRANE ENSEMBLE, Inc. </p>
+                </div>
+                <div class="col-md-4">
+                    <!-- Social Media -->
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.facebook.com/gratefulcrane/" class="Facebook">
+                                <i class="ion-social-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="Instagram">
+                                <i class="ion-social-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /#footer -->
+
+</body>
+</html>
